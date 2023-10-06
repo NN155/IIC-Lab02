@@ -27,6 +27,6 @@ genre = pd.Series(genreDict)
 genre = genre.sort_values(ascending=False)
 genre.head(5).plot(kind='pie')
 
-# Ця команда виводить створену стовпчикову діаграму на екран користувача.
+# Ця команда виводить створену кругову діаграму на екран користувача.
 plt.show()
 
